@@ -1,0 +1,11 @@
+ALGORITHM TO FIND THE FIBONACCI SEQUENCE
+Start
+Declare integer variables a,b,c,n,i
+Initialize variable a=0, b=1, c=0 //a is first element b is second element c is next number 
+Read n from user
+Use a for loop with condition i=1; i<=n; i++ //initialize i to start from, 1 where i is less than or equal to n, increment i
+Print a 
+c=a+b
+a=b, b=c //end of loop
+Stop
+
